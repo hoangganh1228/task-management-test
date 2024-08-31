@@ -1,8 +1,8 @@
-const Task = require("../../../models/task.model");
+const Task = require("../models/task.model");
 
 
-const paginationHelper = require("../../../helpers/pagination");
-const searchHelper = require("../../../helpers/search");
+const paginationHelper = require("../helpers/pagination");
+const searchHelper = require("../helpers/search");
 
 module.exports.index = async (req, res) => {
   const find = {
